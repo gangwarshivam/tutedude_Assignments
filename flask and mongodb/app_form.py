@@ -5,7 +5,7 @@ app = Flask(__name__, template_folder='templates')
 
 # MongoDB connection
 
-client=pymongo.MongoClient("mongodb+srv://shivamgangwar:Indianarmy2002@pymongo.quqwc2q.mongodb.net/?appName=pymongo")
+client=pymongo.MongoClient("mongodb+srv://<username>:<password>@pymongo.quqwc2q.mongodb.net/?appName=pymongo")
 
 db=client['Frontend']
 collection=db['user_data']
